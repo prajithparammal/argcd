@@ -1,8 +1,8 @@
 local overrides = import 'overrides.libsonnet';
-local nginx = import '../../../libs/mysql/mysql.libsonnet';
+local mysql = import '../../../libs/mysql/mysql.libsonnet';
 local p = import 'params.libsonnet';
 
-nginx.HelmDefinition(p){
+mysql.HelmDefinition(p){
   'values.yaml'+: overrides {
     
   },
