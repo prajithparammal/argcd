@@ -1,0 +1,2 @@
+# argcd
+hosting argocd app
