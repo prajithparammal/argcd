@@ -7,4 +7,4 @@ test:
 	helm template test .
 
 generate:
-	helm template mysql -n mysql . > ../../../clusters/in-cluster/mysql/app.yaml
+	helm template mysql -n mysql . > ../../../clusters/k3cluster/mysql/app.yaml
