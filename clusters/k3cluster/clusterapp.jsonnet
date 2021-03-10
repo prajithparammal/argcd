@@ -13,7 +13,7 @@
       path: 'clusters/k3cluster',
     },
     destination: {
-      server: 'https://kubernetes.default.svc',
+      name: 'in-cluster',
       namespace: 'argocd',
     },
   },
