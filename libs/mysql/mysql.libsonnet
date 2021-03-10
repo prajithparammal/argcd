@@ -5,12 +5,12 @@ local defaultValues = import 'values.libsonnet';
     'Chart.yaml': {
       name: 'mysql-internal',
       apiVersion: 'v2',
-      version: '1.0.0',
+      version: '3.2.1',
       dependencies: [
         {
           name: 'mysql',
           repository: 'https://charts.bitnami.com/bitnami',
-          version: '8.4.3',
+          version: '3.2.1'
         },
       ],
     },
